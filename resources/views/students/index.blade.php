@@ -60,6 +60,10 @@
 @section('content')
 <!-- START DATA -->
 <div class="my-3 p-3 bg-body rounded shadow-sm">
+    <div class="pb-2">
+        <a href="dashboard" class="btn btn-primary">Dashboard</a>
+    </div>
+
     <!-- FORM PENCARIAN -->
     <div class="pb-3">
         <form class="d-flex" action="{{url('students')}}" method="get">
